@@ -1,5 +1,11 @@
-def valeurAscii(a):
-    return ord(a)
-print(valeurAscii("a"))
+#nimewo 1
+chenn = "King Ragnar"
+print(chenn.lower())
 
-print("hello")
+#nimewo 2
+var = "ayibobo ayiti"
+print(var.split())
+
+#nimewo 3
+let = "the king ragnar"
+print(let.title())
