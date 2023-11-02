@@ -25,4 +25,9 @@ print(karak.replace("a","@"))
 #nimewo 6
 vvar = "ThamArt"
 vvar_inv = vvar[::-1]
-print(vvar_inv)
+print(vvar_inv.upper())
+
+#nimewo 7
+indexo = "Elle est mignone"
+ver = indexo.index("e")
+print(ver)
