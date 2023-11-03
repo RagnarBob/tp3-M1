@@ -31,3 +31,53 @@ print(vvar_inv.upper())
 indexo = "Elle est mignone"
 ver = indexo.index("e")
 print(ver)
+
+#nimewo 8
+chaine = "Elle est une amie speciale et je l'aime"
+cpt = 0
+for karak in chaine:
+    if karak == "e":
+        cpt+=1
+print("kantite e ki genyen an se:",cpt)   
+
+#numewo 9
+Thamie = "Ayiti kapab avanse"
+yes = 0
+liste = []
+for kar in Thamie:
+    if kar == "a":
+        liste.append(str(yes))
+    yes+=1 
+#soti = " , ".join(liste)
+print(liste)   
+
+
+
+"""fruit = "Ayiti kapab avanse"
+liste_fruit = []
+
+for i in range(len(fruit)):
+    if fruit[i] == "a":
+        liste_fruit.append(i)
+
+print(liste_fruit)"""
+
+"""fru="Ayiti kapab avanse"
+lis=[]
+ele="a"
+compt=0
+for el in fru:
+    compt = fru.index(ele)
+    lis.append(compt)
+compt+=1
+print(lis) """  
+
+#nimewo 10
+bob = "je suis Ragnar Bob the king"
+king = bob.replace(" ","")
+doll = len(king) 
+ragnar = str(doll)
+print(king+ragnar)
+
+
+
