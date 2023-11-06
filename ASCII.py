@@ -1,3 +1,6 @@
+import random
+import string
+
 print("******************PATI CHENN*******************")
 print("nimewo 1 :")
 chenn = "King Ragnar"
@@ -169,9 +172,9 @@ dikkk =
 print(dikkk)"""
 
 print("nimewo 10:")
-dic = {'the':'king','bob':'ragnar','doll':12,"maken":34}
+diksss = {'the':'king','bob':'ragnar','doll':10,"maken":30}
 dictt = {'the':'2','bob':'3','doll':'12',"maken":'6'}
-dict_tot = dic.copy()
+dict_tot = {}
 for kle,vale in dictt.items():
     if kle in dict_tot:
         if isinstance(vale,int):
@@ -190,6 +193,54 @@ for kle,vale in dictt.items():
         dict_tot[kle] = vale                
 
 print(dict_tot)
+
+print("****************PATI FONCTION*****************")
+print("nimewo 1:")
+def retounen(mo):
+    inves = mo[::-1]
+    return inves
+inverse = retounen("doll")
+print(inverse)
+
+print("nimewo 2:")
+def jenere (n):
+    kod = ''.join(random.choice(string.ascii_letters) for _ in range(n))
+    return kod
+n = 10 
+kod_aleyatwa = jenere(n)
+print(kod_aleyatwa)
+
+print("nimewo 3:")
+def aleatwa(n):
+    karakte = string.ascii_letters
+    kood = ''.join(random.sample(karakte,n))
+    return kood
+n = 10
+ko_ale = aleatwa(n)
+print(ko_ale)
+
+print("nimewo 4:")
+def aleat(n):
+    alphanumerik = string.ascii_letters + string.digits
+    num = ''.join(random.choice(alphanumerik) for _ in range(n))
+    return num
+n = 10 
+nime = aleat(n)
+print(nime)
+
+print("nimewo 5:")
+
+
+print("nimewo 6:")
+def separ(moo):
+    separe = '-'.join(moo)
+    return separe
+name = "Thamie"
+sepa = separ(name)
+print(sepa)
+
+
+
 
 
 
